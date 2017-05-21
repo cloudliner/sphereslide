@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  ngOnInit(): void {
+    var img1 = new ThView({id:'sphere_sample', file:'assets/images/R0011035.JPG'});
+  }
 }
